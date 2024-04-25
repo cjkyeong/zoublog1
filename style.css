@@ -16,6 +16,7 @@ body{
     background-image: url(./bg.jpg);
   font-family: Arial, Helvetica, sans-serif;
   color: #302f2f;
+
 }
 
 header{
@@ -64,6 +65,130 @@ header li a:hover{
     color: rgb(255, 102, 0);
 }
 
+
+
+
+
+/*본문단*/
+section{
+    width: 1400px;
+   margin: 0 auto;
+}
+/*메인단 -  왼쪽 영역*/
+
+main{
+    margin-bottom: 50px;
+    margin-top : 50px;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px #df6e04;
+    background-color: white;
+}
+/*메인 왼쪽영역 첫번째 단락*/
+.hero{
+    margin-bottom: 2.4rem;
+}
+.hero h2{
+    color: rgb(255, 102, 0);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero p{
+
+    width: 400px;
+    padding: 0.8rem;
+    margin: 1rem;
+    box-shadow: -3px -3px 5px #df6e04 inset;
+    border-radius: 0px 20px 20px 15px;
+    background-color: #91c777;
+     color: white;
+   
+}
+.hero time{
+    color: ;
+}
+figure{
+    padding: 1em;
+}
+
+
+/*메인 -왼쪽영역- 두번째 단락~다섯번째 단락*/
+article{
+margin-bottom: 2.4rem;
+}
+article h3{
+    width: 500px;
+    border-bottom: 5px dotted #118b06;
+    background-image: url(./h2_icon.png);
+    background-repeat: no-repeat ;
+    background-position: bottom left;
+    font-size: 1.5em;
+    color: rgb(255, 102, 0);
+    font-weight:  bold;
+    margin-bottom: 1.5rem;
+    padding: 10px 10px 16px 50px;
+    margin: 10px;
+}
+
+article p{
+    line-height: 1.6;
+}
+
+/*어사이드 - 오른쪽 영역 */
+aside{
+    margin: 50px;
+}
+/*어사이드 - 오른쪽 영역 -네비 단락*/
+aside nav{
+ 
+   color: rgb(240, 194, 96);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px rgb(250, 171, 0);
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+aside h4{
+    color: #118b06;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.42rem;
+}
+
+aside ul{/*폰트 사이즈 조절 */ }
+aside li{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+/*어사이드 - 오른쪽 영역 - 네비 단락 중 첫번째*/
+.lub{}
+.lnb li{
+    list-style-type: circle;
+    font-weight: bold;
+}
+.lnb a{
+    color: rgb(240, 194, 96);
+}
+
+/*어사이드 - 오른쪽 영역 - 네비 단락 중 두번째*/
+.recent_b{}
+.recent_b{
+    height: 200px;
+    overflow: hidden scroll;
+}
+.recent_b li{
+    border-bottom: 1px solid #df6e04;
+    padding-bottom: 1rem;
+    margin:  1.5rem;
+}
+
+
+
+
 /*바닥단*/
 footer{
     background-color: #714941;
@@ -75,3 +200,15 @@ footer{
      
 }
 
+/*반응형을 위한 미디어 스크린 구간 */
+@media(min-width: 300px) {
+    section{
+    display: flex;
+    justify-content: ;
+    }
+    main{
+        width: 70%;
+    }
+    aside{
+        width: 25%;
+    }
