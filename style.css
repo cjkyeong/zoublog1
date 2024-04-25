@@ -71,7 +71,7 @@ header li a:hover{
 
 /*본문단*/
 section{
-    width: 1400px;
+   max-width: 1400px;
    margin: 0 auto;
 }
 /*메인단 -  왼쪽 영역*/
@@ -201,10 +201,10 @@ footer{
 }
 
 /*반응형을 위한 미디어 스크린 구간 */
-@media(min-width: 300px) {
+@media(min-width: 800px) {
     section{
     display: flex;
-    justify-content: ;
+    justify-content: space-between ;
     }
     main{
         width: 70%;
@@ -212,3 +212,4 @@ footer{
     aside{
         width: 25%;
     }
+}
